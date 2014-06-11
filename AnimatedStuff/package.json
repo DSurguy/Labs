@@ -1,0 +1,11 @@
+{
+  "name": "AnimatedStuff",
+  "version": "0.0.0",
+  "description": "Animating some stuff to get the hang of css animations",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD"
+}

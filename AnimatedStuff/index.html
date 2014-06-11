@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+	<link href="animations.css" type="text/css" rel="stylesheet" />
+	<link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+
+<input id="modalDemo" type="button" value="showModal" />
+
+
+<script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="modalPlugin.js" type="text/javascript"></script>
+<script>
+jQuery(document).ready(function($){
+
+	$("#modalDemo").on("click", function(e){
+		$("body").modal("Test","Supertest");
+	});
+
+});
+</script>
+</body>
+</html>
