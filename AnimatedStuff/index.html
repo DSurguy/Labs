@@ -11,12 +11,17 @@
 
 
 <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="bower_components/gsap/src/minified/TweenLite.min.js" type="text/javascript"></script>
+<script src="bower_components/gsap/src/minified/TimelineLite.min.js" type="text/javascript"></script>
+<script src="bower_components/gsap/src/minified/plugins/CSSPlugin.min.js" type="text/javascript"></script>
 <script src="modalPlugin.js" type="text/javascript"></script>
 <script>
 jQuery(document).ready(function($){
 
 	$("#modalDemo").on("click", function(e){
-		$("body").modal("Test","Supertest");
+		$("body").modal("Test","Supertest", {
+			theme: "a"
+		});
 	});
 
 });
